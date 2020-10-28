@@ -29,13 +29,13 @@
         sum.ml sum_test.ml
  *
  * sum_test.native:
-     ocamlopt -o sum_test.native 						\
-       -I ~/.opam/default/lib/ounit2/advanced 					\
-       -I ~/.opam/default/lib/ounit2 						\
-       /Users/lolh-mbp/.opam/default/lib/ocaml/unix.cmxa 			\
-       /Users/lolh-mbp/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa 	\
-       /Users/lolh-mbp/.opam/default/lib/ounit2/oUnit.cmxa 			\
-       sum.ml sum_test.ml
+      ocamlopt -o sum_test.native 				\
+        -I ~/.opam/default/lib/ounit2/advanced 			\
+        -I ~/.opam/default/lib/ounit2 				\
+        ~/.opam/default/lib/ocaml/unix.cmxa 			\
+        ~/.opam/default/lib/ounit2/advanced/oUnitAdvanced.cmxa 	\
+        ~/.opam/default/lib/ounit2/oUnit.cmxa 			\
+        sum.ml sum_test.ml
  *)
 
 open OUnit2
