@@ -9,6 +9,7 @@
  *
  * dune
  * ____
+ * _build/default/sum_test.bc:  dune build sum_test.bc
  * _build/default/sum_test.exe: dune build sum_test.exe
  *
  * ocamlbuild
