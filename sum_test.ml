@@ -4,7 +4,12 @@
  *
  * An example of compiling code that depends upon another module, a library module,
  * and the standard library, using the ocaml compiler only, ocamlfind with the compiler,
- * and ocamlbuild.
+ * ocamlbuild, and finally dune.  The examples below are given from simplest to most
+ * most complex.
+ *
+ * dune
+ * ____
+ * _build/default/sum_test.exe: dune build sum_test.exe
  *
  * ocamlbuild
  * ----------
