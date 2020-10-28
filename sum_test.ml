@@ -29,8 +29,7 @@
         sum.ml sum_test.ml
  *
  * sum_test.native:
- *   ocamlopt -o sum_test.native 						\
-       -I ~/.opam/default/lib/bytes 						\
+     ocamlopt -o sum_test.native 						\
        -I ~/.opam/default/lib/ounit2/advanced 					\
        -I ~/.opam/default/lib/ounit2 						\
        /Users/lolh-mbp/.opam/default/lib/ocaml/unix.cmxa 			\
