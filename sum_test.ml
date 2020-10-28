@@ -9,8 +9,9 @@
  *
  * dune
  * ____
- * _build/default/sum_test.bc:  dune build sum_test.bc
- * _build/default/sum_test.exe: dune build sum_test.exe
+ * _build/default/sum_test.bc:  dune exec ./sum_test.bc/.exe (build and run executable in one step)
+ * _build/default/sum_test.bc:  dune build sum_test.bc (create byte-code version)
+ * _build/default/sum_test.exe: dune build sum_test.exe (create native version)
  *
  * ocamlbuild
  * ----------
